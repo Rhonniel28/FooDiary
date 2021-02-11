@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context=".parent_breakfast"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Healthy BreakFast"
+            android:textSize="35sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:onClick="choice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:background="@drawable/b"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Gruyère, Bacon, and Spinach Scrambled Eggs"
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="35sp"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#989393"
+                android:layout_margin="10dp"/>
+
+
+
+            <LinearLayout
+                android:onClick="choice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img2"
+                    android:background="@drawable/bb"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Sheet Pan Sausage and Egg Breakfast Bake "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="35sp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#989393"
+                android:layout_margin="10dp"/>
+
+
+            <LinearLayout
+                android:onClick="choice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img3"
+                    android:background="@drawable/bbb"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Very Berry Quinoa Muffins "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="40sp"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#989393"
+                android:layout_margin="10dp"/>
+
+            <LinearLayout
+                android:onClick="choice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img4"
+                    android:background="@drawable/bbbb"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Classic Omelet and Greens "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="40sp"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#989393"
+                android:layout_margin="10dp"/>
+
+            <LinearLayout
+                android:onClick="choice5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img5"
+                    android:background="@drawable/bbbbb"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Shakshuka "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="40sp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

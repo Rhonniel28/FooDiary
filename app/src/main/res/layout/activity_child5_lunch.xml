@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".child5_lunch"
+    android:orientation="vertical"
+    android:background="@drawable/y"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:background="@drawable/lllll"
+            />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#ffff"
+                android:text="Spinach and Gruyère Potato Casserole Ingredients 1 1/4 lb. red potatoes, cut into 1-in. chunks 2 tbsp. olive oil 4 lg. eggs 1/4 c. half-and-half 2 c. shredded Gruyère cheese 1/4 c. chopped fresh basil, plus more for garnish 1/4 c. chopped fresh parsley, plus more for garnish 3 cloves garlic, finely chopped 3 c. packed fresh spinach, sliced 2 med. bulbs fennel, cored and thinly sliced Directions Preheat oven to 450 degrees F. Toss potatoes with oil and 1/4 teaspoon each salt and pepper; arrange in single layer on rimmed baking sheet. Bake 20 to 25 minutes or until golden brown and tender. Reduce oven temperature to 375 degrees F. Meanwhile, whisk together eggs, half-and-half and 1/2 teaspoon salt; stir in Gruyère, basil, parsley and garlic. In large bowl, toss potatoes, spinach and fennel with egg mixture until well combined. Transfer to 2-quart. baking dish; cover with foil. Bake 30 to 35 minutes or until custard has set. Uncover; bake another 5 minutes. Garnish with additional basil and parsley, if desired."/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

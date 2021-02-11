@@ -1,17 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/foo"
     android:orientation="vertical"
+    android:background="@drawable/gg"
     tools:context=".main_page">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="MENU"
-        android:textSize="50sp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FooDiary"
+        android:textSize="55sp"
+        android:textColor="#5E755F"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Healthy Living"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="italic"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center">
+
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addbtn"
+            android:background="@drawable/stroke2_button"
+            android:src="@drawable/ic_baseline_add_circle_outline_24" />
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="My Recipe"
+            android:textColor="#4CAF50"
+            android:textStyle="italic|bold"
+            android:textSize="20sp"
+            android:gravity="center_vertical"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:text="Recipe"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="#AFF6B2"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:onClick="recipebtn"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:text="Shop"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:textColor="#AFF6B2"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:onClick="shopbtn"/>
+
+
+</LinearLayout>

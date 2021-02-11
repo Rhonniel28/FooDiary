@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".child4_lunch"
+    android:background="@drawable/y"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:background="@drawable/llll"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#ffff"
+                android:text="Grilled Leek Potato Salad Ingredients 2 lb. new red potatoes Kosher salt and pepper 2 medium leeks, white and light green parts only, halved lengthwise 3 tbsp. plus 2 tsp olive oil 1 tbsp. finely grated lemon zest 1/4 tsp. red pepper flakes 2 tbsp. cider vinegar 2 tbsp. whole-grain mustard Directions Heat grill to medium-high. Place potatoes in large pot, add enough cold water to cover by 2 inches, and bring to a boil. Add 2 teaspoons salt, reduce heat, and simmer until just tender, 12 to 15 minutes. Drain and run under cold water to cool. While potatoes cook, brush leeks with 2 teaspoons oil, then place on grill cut sides down and grill, covered, until charred and nearly tender, 6 minutes. Turn and cook 2 minutes more. Transfer to bowl, cover with plastic wrap, and let sit at least 5 minutes. Meanwhile, in large bowl, combine lemon zest, pepper flakes, vinegar, mustard, remaining 3 tablespoons oil, and 1/2 teaspoon each salt and pepper. Halve potatoes, or quarter if large. Chop leeks and toss with vinaigrette, then fold in potatoes."/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".child2_breakfast"
+    android:background="@drawable/w"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:background="@drawable/bb"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#ffff"
+                android:text="Sheet Pan Sausage and Egg Breakfast Bake Ingredients 4 uncooked breakfast sausages (6 oz total) 4 slices bacon 8 oz. small cremini mushrooms, halved or quartered if large 16 Campari or cocktail tomatoes, halved 2 cloves garlic, finely chopped 1 tbsp. olive oil Kosher salt and pepper 4 large eggs 1/2 c. flat-leaf parsley, chopped Toast, for serving Directions Heat oven to 400°F. On large rimmed baking sheet, roast sausages and bacon, 15 minutes. In large bowl, toss mushrooms, tomatoes, and garlic with oil and a pinch each of salt and pepper. Add to baking sheet and roast 10 minutes. Make wells among vegetables and crack 1 egg into each space; return to oven and roast until meat is cooked through and egg whites are opaque throughout, 8 to 10 minutes more. Sprinkle with parsley and serve with toast if desired."/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

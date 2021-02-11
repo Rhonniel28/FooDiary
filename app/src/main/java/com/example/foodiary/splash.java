@@ -43,7 +43,7 @@ public class splash extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(splash.this, welcome.class);
+                Intent intent = new Intent(splash.this, gifSplash.class);
                 startActivity(intent);
                 finish();
             }

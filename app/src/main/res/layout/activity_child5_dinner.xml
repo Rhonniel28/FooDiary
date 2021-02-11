@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".child5_dinner"
+    android:orientation="vertical"
+    android:background="@drawable/x"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:background="@drawable/ddddd"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#ffff"
+                android:text="Sesame butter radishes with lemon INGREDIENTS 100g unsalted butter, chopped 2 tsp sesame oil 3 bunches mixed radishes, washed, trimmed Juice of 1 lemon, plus extra lemon wedges to serve 1 tbs each toasted black and white sesame seeds Red vein sorrel, baby radish leaves, baby shiso and sourdough, to serve METHOD 1. Melt butter and oil in large frypan over medium-high heat and cook for 3 minutes or until nut brown. Add radish and cook, tossing pan, for 6-8 minutes or until tender. Spoon into a serving bowl. 2. Drizzle over lemon juice and scatter with sesame seeds and salad leaves. Serve with sourdough and extra lemon."/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

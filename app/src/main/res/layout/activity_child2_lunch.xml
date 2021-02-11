@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".child2_lunch"
+    android:background="@drawable/y"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:background="@drawable/ll"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#ffff"
+                android:text="Tomato Panzanella Ingredients 1/2 loaf sourdough bread, preferably stale (about 1 lb) 2 large cloves garlic 6 anchovy filets 3 c. basil 1/2 c. olive oil, plus more for serving 2 tbsp. sherry vinegar Kosher salt Pepper 2 lb. heirloom tomatoes (in various colors and sizes) 4 tbsp. unsalted butter Directions Heat oven to 400°F. Cut crusts off bread and tear bread into large pieces. In food processor, finely chop garlic, anchovies, 1 1/2 cups basil and 1/4 cup olive oil. Add vinegar and 1/4 teaspoon salt and pulse to form thick dressing. Cut tomatoes into large wedges and chunks and toss with dressing; let stand at room temp for 30 minutes. Meanwhile, in small saucepan, melt butter with remaining 1/4 cup oil. On large rimmed baking sheet, toss bread with butter mixture to evenly coat, then arrange in single layer and roast, turning often until golden brown and crisp (but still slightly chewy inside), 15 to 20 minutes. Gently toss croutons with tomatoes, then fold in remaining basil, tearing large leaves into smaller pieces. Drizzle with additional oil and sprinkle with fresh cracked pepper."/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

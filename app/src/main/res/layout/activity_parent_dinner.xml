@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parent_dinner"
+    android:background="@drawable/a"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satisfying Dinner"
+            android:fontFamily="monospace"
+            android:textSize="35sp"
+            android:textColor="#ffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:onClick="din1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img1"
+                    android:background="@drawable/d"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Lemon chicken "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="40sp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#989393"
+                android:layout_margin="10dp"/>
+
+
+
+            <LinearLayout
+                android:onClick="din2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img2"
+                    android:background="@drawable/dd"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Herbed Chicken Marsala "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="40sp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#989393"
+                android:layout_margin="10dp"/>
+
+
+            <LinearLayout
+                android:onClick="din3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img3"
+                    android:background="@drawable/ddd"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Classic Shrimp "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="40sp"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#989393"
+                android:layout_margin="10dp"/>
+
+            <LinearLayout
+                android:onClick="din4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img4"
+                    android:background="@drawable/dddd"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Garlicky fried rice with crisp pork "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="40sp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#989393"
+                android:layout_margin="10dp"/>
+
+            <LinearLayout
+                android:onClick="din5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/img5"
+                    android:background="@drawable/ddddd"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:text="Sesame butter radishes with lemon "
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:textSize="40sp"/>
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout> <!--end-->
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

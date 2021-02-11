@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".child3_breakfast"
+    android:background="@drawable/w"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:background="@drawable/bbb"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#ffff"
+                android:text="Very Berry Quinoa Muffins Ingredients 3/4 c. all-purpose flour, plus more for dusting 1 c. almond flour 1/4 c. white quinoa (raw) 1 tsp. baking powder 1 tsp. ground cinnamon 1/2 tsp. ground ginger 1/2 tsp. baking soda 1/2 tsp. kosher salt 2 large eggs, beaten 1 c. plain full-fat yogurt 1/4 c. whole milk 1/3 c. honey 2 6-oz containers small raspberries Directions 1. Heat oven to 325°F. Lightly coat 12-cup muffin pan with cooking spray and dust with flour. 2. In large bowl, whisk together flours, quinoa, baking powder, cinnamon, ginger, baking soda, and salt. 3. In medium bowl, whisk together eggs, yogurt, milk, and honey. Fold egg mixture into flour mixture until just combined, then stir in raspberries. 4. Divide batter among muffin-pan cups and bake until toothpick inserted into centers of muffins comes out clean, 15 to 20 minutes. Cool in pan 5 minutes, then transfer to a wire rack to cool completely."/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

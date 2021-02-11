@@ -9,7 +9,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FooDiary">
-        <activity android:name=".welcome"></activity>
+        <activity android:name=".prutas"></activity>
+        <activity android:name=".gulay" />
+        <activity android:name=".gifSplash" />
+        <activity android:name=".child5_dinner" />
+        <activity android:name=".child4_dinner" />
+        <activity android:name=".child3_dinner" />
+        <activity android:name=".child2_dinner" />
+        <activity android:name=".child1_dinner" />
+        <activity android:name=".parent_dinner" />
+        <activity android:name=".child5_lunch" />
+        <activity android:name=".child4_lunch" />
+        <activity android:name=".child3_lunch" />
+        <activity android:name=".child2_lunch" />
+        <activity android:name=".child1_lunch" />
+        <activity android:name=".parent_lunch" />
+        <activity android:name=".child5_breakfast" />
+        <activity android:name=".child4_breakfast" />
+        <activity android:name=".child3_breakfast" />
+        <activity android:name=".child2_breakfast" />
+        <activity android:name=".child1_breakfast" />
+        <activity android:name=".parent_breakfast" />
+        <activity android:name=".shop_menu" />
+        <activity android:name=".recipes_menu" />
+        <activity
+            android:name=".MyRecipe"
+            android:label="New Recipe"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity
+            android:name=".AddRecipe"
+            android:label="Your Recipe"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+        <activity android:name=".welcome" />
         <activity android:name=".main_page" />
         <activity android:name=".splash">
             <intent-filter>

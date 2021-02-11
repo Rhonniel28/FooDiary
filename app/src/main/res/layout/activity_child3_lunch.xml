@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".child3_lunch"
+    android:background="@drawable/y"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:background="@drawable/lll"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="#ffff"
+                android:text="Shaved Carrot and Radish Salad Ingredients For the Vinagrette 3 tbsp. fresh orange juice 3 tbsp. fresh lemon juice 1 tsp. honey Kosher salt and pepper 3 tbsp. olive oil For salad 4 mixed colored carrots, shaved lengthwise (about 3 cups) 4 radishes, shaved into rounds (about 1 cup) 2 stalks celery, thinly sliced (about 2 cups) 1 small beet, shaved into half moon rounds (about 1 cup) 1 c. watercress 2 small oranges, rind removed and sliced into half moons 1/2 c. fresh mint leaves, torn, if large Directions In bowl, whisk together orange juice, lemon juice, honey, and 1/2 tsp each salt and pepper to dissolve honey, then whisk in oil. Arrange vegetables, oranges, and mint on large platter and drizzle with vinaigrette. "/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
